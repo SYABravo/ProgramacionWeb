@@ -7,8 +7,9 @@ public class Program {
 		Student student=new Student();
 		
 		student.setFirstName("Sayda Bravo Lliuya");
+		student.setId(1L);
 		
-		System.out.println(student.getFirstName());
+		System.out.println(student);
 		
 
 	}
